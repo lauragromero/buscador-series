@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bucador de series</title>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/main.css" />
+    </head>
+    
+    <body>
+        <header class="header transition">
+             <h1>Buscador de series</h1>
+
+        </header>
+        <div class="form-search">
+            <section class="section__search">
+                <form action="" method="POST" id="formSearch">
+                    <input type="text" id="inputSearch" class="inputSearch">
+                    <button type="button" id="buttonSearch" class="buttonSearch">search</button>
+                </form>
+            </section>
+        </div>
+        <main class="main">
+            <div class="section-fav">
+                <section class="sectionFav hidden" id="sectionfavList">
+                     <h2> Mis series favoritas</h2>
+
+                    <button class="btnReset" type="button" id="btnReset">Reset all favoritos</button>
+                    <ul class="section__favourite" id="favouriteList">
+                        <ul>
+                </section>
+            </div>
+            <section class="section__list-results" id="resultsContainer">
+                <ul class="reult__list" id="resultList"></ul>
+            </section>
+        </main>
+        <script src="./assets/js/main.js" type="text/javascript"></script>
+    </body>
+
+</html>
