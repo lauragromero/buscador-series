@@ -10,7 +10,7 @@ const elementFavList = document.querySelector ('#favouriteList');
 const elementButtonReset = document.querySelector('#btnReset');
 const elementeValidation = document.querySelector ('#textAlertForm');
 const elemntSectionfav = document.querySelector ('#sectionfavList');
-const urlBase = 'http://api.tvmaze.com/search/shows?q=';
+const urlBase = 'https://api.tvmaze.com/search/shows?q=';
 const imgDefault = 'https://via.placeholder.com/210x295/ffffff/666666/? text=TV.';
 
 let favouriteSerie = [];//creo un array vacio para meter dentro los fav que selecciono 
